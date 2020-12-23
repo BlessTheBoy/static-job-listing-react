@@ -1,0 +1,10 @@
+@import "variables";
+
+.top-section {
+  height: 25vh;
+  background-color: $DesaturatedDarkCyan;
+  background-image: url(../images/bg-header-mobile.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
