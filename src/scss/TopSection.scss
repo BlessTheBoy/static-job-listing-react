@@ -8,3 +8,13 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 1000px) {
+  .top-section {
+    background-color: $DesaturatedDarkCyan;
+    background-image: url(../images/bg-header-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

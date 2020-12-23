@@ -1,0 +1,17 @@
+@import "variables";
+
+.job-tag {
+  cursor: pointer;
+  padding: 0.3rem;
+  color: $DesaturatedDarkCyan;
+  background-color: $LightGrayishCyanFilterTablets;
+  margin-right: 0.7rem;
+  margin-bottom: 0.7rem;
+  font-weight: 700;
+  font-size: 13px;
+
+  &:hover {
+    color: white;
+    background-color: $VeryDarkGrayishCyan;
+  }
+}

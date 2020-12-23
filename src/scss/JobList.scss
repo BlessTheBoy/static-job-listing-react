@@ -1,0 +1,17 @@
+@import "variables";
+
+.job-list {
+  //   padding: 4rem 1.5rem 2rem;
+  flex: 1;
+  background-color: $LightGrayishCyanBackground;
+  padding-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+
+  .jobs {
+    flex: 1;
+    padding: 1.5rem;
+    margin-top: 0;
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,33 @@
+@import "variables";
+
+.search-tag {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background-color: $LightGrayishCyanFilterTablets;
+  color: $DesaturatedDarkCyan;
+  border-radius: 4px;
+  margin-right: 12px;
+  height: fit-content;
+  margin-bottom: 12px;
+
+  p {
+    padding: 0 0.3rem;
+    font-size: 0.75rem;
+    line-height: 1;
+    margin-bottom: -2px;
+    font-weight: 700;
+  }
+
+  img {
+    background-color: $DesaturatedDarkCyan;
+    padding: 0.3rem;
+    width: 20px;
+    object-fit: contain;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $VeryDarkGrayishCyan;
+    }
+  }
+}

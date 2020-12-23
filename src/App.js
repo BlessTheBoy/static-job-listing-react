@@ -1,6 +1,6 @@
 import "./App.css";
+import Footer from "./Footer";
 import JobList from "./JobList";
-import Search from "./Search";
 import TopSection from "./TopSection";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <TopSection />
       <JobList />
+      <Footer />
     </div>
   );
 }
